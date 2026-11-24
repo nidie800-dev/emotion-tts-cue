@@ -1,0 +1,20 @@
+[project]
+name = "emocue"
+version = "0.1.0"
+description = "Turn emotion-tagged scripts into segmented TTS audio, Cue sheets, and Cubase-ready MIDI markers."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "nidie800-dev" }]
+keywords = ["tts", "emotion", "comfyui", "cubase", "audio", "asmr"]
+dependencies = []
+
+[project.scripts]
+emocue = "emocue.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["emocue*"]

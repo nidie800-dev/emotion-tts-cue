@@ -1,0 +1,7 @@
+# EmoCue dialogue demo
+[neutral] 你听说了吗？
+[surprised:0.9] 什么？他真的要来？
+[happy:0.7] 嗯，明天下午到。
+[sad:0.4] 可是我明天有课。
+[pause:0.4]
+[whisper:0.8] 那就下课再见。

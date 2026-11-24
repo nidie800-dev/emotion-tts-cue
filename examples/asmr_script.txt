@@ -1,0 +1,7 @@
+# EmoCue ASMR demo
+# Tag syntax: [emotion:intensity] text
+[whisper:0.9] 靠近一点，别出声。
+[pause:0.6]
+[happy:0.8] 今天的花，开得很好。
+[sigh:0.5] 只是有点累。
+[laugh:0.9] 算了，不想了。
